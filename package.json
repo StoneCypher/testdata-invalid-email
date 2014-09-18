@@ -1,8 +1,8 @@
 {
   "author": "John Haugeland",
   "name": "testdata-invalid-email",
-  "description": "A list of valid, frequently ugly email addresses for use in automated testing",
-  "version": "0.1.1",
+  "description": "A list of invalid, frequently valid appearing email addresses for use in automated testing",
+  "version": "0.1.2",
   "repository": {
     "url": "https://github.com/StoneCypher/testdata-invalid-email.git"
   },
