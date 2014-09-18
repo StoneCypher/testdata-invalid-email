@@ -1,0 +1,30 @@
+{
+  "author": "John Haugeland",
+  "name": "testdata-valid-email",
+  "description": "A list of valid, frequently ugly email addresses for use in automated testing",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/StoneCypher/testdata-valid-email.git"
+  },
+  "keywords": [
+    "test",
+    "testing",
+    "validate",
+    "validation",
+    "email",
+    "mail",
+    "address",
+    "check"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "vows": "*"
+  },
+  "main": "testdata-valid-email.js",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "vows test/* --spec"
+  }
+}
