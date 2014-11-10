@@ -2,7 +2,7 @@
   "author": "John Haugeland",
   "name": "testdata-invalid-email",
   "description": "A list of invalid, frequently valid appearing email addresses for use in automated testing",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "repository": {
     "url": "https://github.com/StoneCypher/testdata-invalid-email.git"
   },
@@ -16,8 +16,12 @@
     "address",
     "check"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "sc-eslint": "*",
+    "gulp-shell": "*"
+  },
   "devDependencies": {
+    "gulp": "*",
     "vows": "*"
   },
   "main": "testdata-invalid-email.js",
